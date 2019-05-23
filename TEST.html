@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<title></title>
+</head>
+<body>
+	<header class="container">
+		<div class="voiture">
+			<div id="carouselExampleInterval" class="carousel slide col-12 slider" data-ride="carousel">
+  				<div class="carousel-inner">
+    				<div class="carousel-item active" data-interval="15000">
+      					<img src="img/background1.jpg" class="d-block w-100" alt="fond">
+
+   		 		</div>
+  		 		<div class="carousel-item" data-interval="15000">
+    				<img src="img/background2.jpg" class="d-block w-100" alt="fond">
+    			</div>
+    				<div class="carousel-item" data-interval="15000">
+      					<img src="img/background3.jpg" class="d-block w-100" alt="fond">
+    				</div>
+    				<!-- <div class="col-12 menu">
+    					<ul>
+    						<li><a href="">louer une voiture</a></li>
+    				 		<li><a href="">louer un utilitaire</a></li>
+    				 		<li><a href="">réserver un chauffeur</a></li>
+    				 		<li><a href="">mon compte</a></li>
+    				 		<li><a href="">contact</a></li>
+
+    					</ul>
+    				</div> je n'arrive pas à faire le menu en toggle et ne sais pas ou placer le logo menu. j'ai également commencer en js a préparer le toggle mais je sais pas faire plus .. -->
+    			
+    				<div class="row">
+						<form id="background">
+							<fieldset>
+								<input type="text" name="" placeholder="Adrèsse de départ" class="adresse" id="tags">
+								<input type="text" name="" placeholder="Début de location" class="locattion">
+								<input type="text" name="" placeholder="Fin de location" class="finloc">
+								<input type="submit" class="valider" value="Valider ma recherche" name="" class="recherche">
+							</fieldset>
+						</form>
+					</div>
+  				</div>
+  					
+			</div>
+		</div>
+	</header>
+
+	<main class="container">
+		<div class="row premierligne">
+			<div class="col-md-6"><span>4 </span>Résultats</div>
+			<div class="col-md-6 prix justify-center-right">trier par : <span> Prix Croissant</span></div>
+		</div>
+		<div class="vente">
+			<div class="row">
+					<div id="carouselExampleControls" class="carousel slide col-6" data-ride="carousel">
+  						<div class="carousel-inner">
+    						<div class="carousel-item active">
+      							<img src="img/vehicule4.png" class="d-block w-100" alt="...">
+    						</div>
+    						<div class="carousel-item">
+      							<img src="img/vehicule4.png" class="d-block w-100" alt="...">
+    						</div>
+  						</div>
+  							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    							<span class="carousel-control-prev-icon" aria-hidden="true">	</span>
+    							<span class="sr-only">Previous</span>
+  							</a>
+  							<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    							<span class="carousel-control-next-icon" aria-hidden="true">	</span>
+    							<span class="sr-only">Next</span>
+  							</a>
+					</div>
+					<div class="col-md-6">
+						<h2>Opel Mokka</h2>
+						<p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.4/km supplémentaire) <br>
+						1150 € - Agence de Paris <br>
+						<input class="apayer" type="submit" value="réserver et payer" name="réserver et payer"></p>
+					</div>
+					<div id="carouselExampleControls" class="carousel slide col-6" data-ride="carousel">
+  						<div class="carousel-inner">
+    						<div class="carousel-item active">
+      						<img src="img/vehicule1.png" class="d-block w-100" alt="...">
+    						</div>
+    						<div class="carousel-item">
+      						<img src="img/vehicule1.png" class="d-block w-100" alt="...">
+    						</div>
+  						</div>
+  						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    						<span class="sr-only">Previous</span>
+  						</a>
+  						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    						<span class="sr-only">Next</span>
+  						</a>
+					</div>
+					<div class="col-md-6">
+						<h2>Peugeot 208</h2>
+						<p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.5/km supplémentaire) <br> 
+						999 € - Agence de Paris <br>
+						<input class="apayer" type="submit" value="réserver et payer" name="réserver et payer"></p>
+					</div>
+					<div id="carouselExampleControls" class="carousel slide col-6" data-ride="carousel">
+  						<div class="carousel-inner">
+    						<div class="carousel-item active">
+      						<img src="img/vehicule3.png" class="d-block w-100" alt="...">
+    						</div>
+    						<div class="carousel-item">
+      						<img src="img/vehicule3.png" class="d-block w-100" alt="...">
+    						</div>
+  						</div>
+  						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    						<span class="sr-only">Previous</span>
+  						</a>
+  						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    						<span class="sr-only">Next</span>
+  						</a>
+					</div>
+					<div class="col-md-6">
+						<h2>Audi A1</h2>
+						<p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.55/km supplémentaire)
+						1100 € - Agence de Paris <br>
+						<input class="apayer" type="submit" value="réserver et payer" name="réserver et payer"></p>
+					</div>
+					<div id="carouselExampleControls" class="carousel slide col-6" data-ride="carousel">
+  						<div class="carousel-inner">
+    						<div class="carousel-item active">
+      						<img src="img/vehicule2.png" class="d-block w-100" alt="...">
+    						</div>
+    						<div class="carousel-item">
+      						<img src="img/vehicule2.png" class="d-block w-100" alt="...">
+    						</div>
+  						</div>
+  						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    						<span class="sr-only">Previous</span>
+  						</a>
+  						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    						<span class="sr-only">Next</span>
+  						</a>
+					</div>
+					<div class="col-md-6">
+						<h2>Ford Focus</h2>
+						<p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.5/km supplémentaire)
+						999 € <br>
+						<input class="apayer" type="submit" value="réserver et payer" name="réserver et payer"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="container">
+		<div class="row agence">
+			<div class="col-12 col-md-6">
+				<img src="img/agence.jpg">
+			</div>
+			<div class="col-12 col-md-6 finish">
+				Notre agence de Paris <br>
+				300 boulevard de Vaugirard, 75015, Paris <br>
+				Ouvert 7j/7 de 09h à 13h et de 14h à 20h <br>
+				01 49 78 21 33 <br>
+				contact@vtc.com <br>
+
+			</div>
+		</div>
+	</footer>
+	
+
+
+
+<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>

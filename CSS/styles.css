@@ -1,0 +1,89 @@
+*{
+	box-sizing : border-box;
+}
+.voiture{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.slider{
+	z-index: 1;
+}
+
+.menu{
+	z-index: 100;
+}
+
+#background{
+	background-size: cover;
+	z-index: 100;
+	text-align: center;
+	margin-left: 0px;
+	padding-top: 300px ;
+	padding-left: 200px;
+
+}
+
+fieldset{
+	background: #888888;
+	border: inherit;
+}
+
+.locattion, .finloc{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.adresse{
+	margin-right: 5px;
+}
+
+.recherche{
+	margin-left: 5px;
+}
+
+.valider{
+	color: white;
+	background: #5ab55a;
+}
+
+.prix{
+	text-align: right;
+}
+
+.premierligne, span{
+	font-weight: bold;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.carousel-control-next-icon{
+	background-image: url("../img/next.jpg");
+	z-index: 1;
+}
+
+.carousel-control-prev-icon{
+	background-image: url("../img/prev.jpg");
+	z-index: 1;
+}
+
+.apayer{
+	background: #3e8f3e;
+	color: white;
+	border-radius: 10px;
+	border: none;
+
+}
+
+.agence img{
+	height: 150px;
+	width: 200px;
+}
+
+.agence{
+	text-align: right;
+}
+
+.finish{
+	text-align: left;
+}
